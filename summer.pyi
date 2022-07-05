@@ -1,0 +1,3 @@
+from typing import Callable
+
+def summer(num: float) -> Callable[[float], float | Callable]: ...
