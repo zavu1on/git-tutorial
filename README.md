@@ -29,3 +29,16 @@ git add .
 git commit -m "add test"
 git push --set-upstream origin test
 ```
+
+### Слить две ветки в одну
+```shell
+git merge test
+
+git commit -m "merge with test"
+git push
+```
+
+### Удалить ветку
+```shell
+git branch -d test
+```
