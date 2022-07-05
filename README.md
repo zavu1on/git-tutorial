@@ -19,3 +19,13 @@ git add .
 git commit -m "add entrypoint"
 git push
 ```
+
+### Создать ветку и сделать push в удалённый репозиторий
+```shell
+git branch test
+git checkout test
+
+git add .
+git commit -m "add test"
+git push --set-upstream origin test
+```
